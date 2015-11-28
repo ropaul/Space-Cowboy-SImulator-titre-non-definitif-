@@ -29,12 +29,19 @@ function Update () {
 
 
 function IAReactif () {
-//GameObject.FindGameObjectWithTag("Your_Tag_Here").transform.position;
-	//if ()
+	// GameObject.FindGameObjectWithTag("Your_Tag_Here").transform.position;
 	// var raycastD : RaycastHit;
 	// var rayDroite = GetComponent.<Camera>().ScreenPointToRay(Input.position);
 	// var raycastG : RaycastHit;
 	// var rayGauche = GetComponent.<Camera>().ScreenPointToRay(Input.position);
+	
+	
+	// Vector3 fwd = transform.TransformDirection(Vector3.forward);
+        // if (Physics.Raycast(transform.position, fwd, 1000)) {
+            // print("There is something in front of the object!");
+        // }
+	
+	
 	// if(raycast.collider.name =="nav"){		
 		// var Target : gameObject;
 		// Debug.DrawRay(ray.origin, ray.direction*1000,Color.red);
@@ -58,7 +65,7 @@ function IAReactif () {
 			// transform.Rotate(Vector3.left, Space.Self);
 		// }
 	
-	//}
+	// }
 	
 		
 }

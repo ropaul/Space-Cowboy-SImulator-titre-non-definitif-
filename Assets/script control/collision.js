@@ -18,7 +18,7 @@ function OnCollisionEnter(collideEvent:Collision){
 	//or an alternative
 	// AudioSource.PlayClipAtPoint(myClip, transform.position);
 	
-	Instantiate(specialEffect, collideEvent.gameObject.transform.position, collideEvent.gameObject.transform.rotation);
-	Destroy(collideEvent.gameObject);
-	var instance : GameObject = Instantiate (thePrefab, transform.position , transform.rotation );
+//	Instantiate(specialEffect, collideEvent.gameObject.transform.position, collideEvent.gameObject.transform.rotation);
+	Destroy(gameObject);
+	//var instance : GameObject = Instantiate (thePrefab, transform.position , transform.rotation );
 }
