@@ -45,12 +45,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Pathfinding\Editor\WaypointEditor.cs" />
+     <Compile Include="Assets\My prefab\PorglezompPyroclastics\Editor\CJPyroclasticMaterialEditor.cs" />
+     <Compile Include="Assets\My prefab\PorglezompPyroclastics\Editor\ExplosionMatEditor.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Editor\WaypointEditor.cs" />
+     <None Include="Assets\My prefab\PorglezompPyroclastics\Explosion.shader" />
+     <None Include="Assets\My prefab\PorglezompPyroclastics\README.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>C:/Users/teddy/Documents/UNITY/Space Cowboy Simulator (titre non définitif)/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -66,9 +67,6 @@
  </Reference>
  <Reference Include="UnityEditor.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/Editor/UnityEditor.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

@@ -45,40 +45,37 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\AI.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\GridPlayer.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\GridPlayer2D.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\Lines.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\SearchPlayerAI.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\SetGrid.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\SimpleAI.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\SimpleAI2D.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\TDEnemy.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\TDManager.cs" />
-     <Compile Include="Assets\Pathfinding\Scenes\Scripts\WaypointPlayer.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\DynamicMapUpdate.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\DynamicTDGridObject.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\Node.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\NodeSearch.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\Pathfinder.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\Pathfinder2D.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\Pathfinding.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\Pathfinding2D.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\QueuePath.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\WaypointListNode.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\WaypointNode.cs" />
-     <Compile Include="Assets\Pathfinding\Scripts\WaypointPathfinder.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\My prefab\PorglezompPyroclastics\ExplosionMat.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\AI.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\GridPlayer.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\GridPlayer2D.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\Lines.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\SearchPlayerAI.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\SetGrid.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\SimpleAI.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\SimpleAI2D.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\TDEnemy.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\TDManager.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scenes\Scripts\WaypointPlayer.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\DynamicMapUpdate.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\DynamicTDGridObject.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\Node.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\NodeSearch.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\Pathfinder.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\Pathfinder2D.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\Pathfinding.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\Pathfinding2D.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\QueuePath.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\WaypointListNode.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\WaypointNode.cs" />
+     <Compile Include="Assets\script control\Pathfinding\Scripts\WaypointPathfinder.cs" />
+     <None Include="Assets\My prefab\PorglezompPyroclastics\Explosion.shader" />
+     <None Include="Assets\My prefab\PorglezompPyroclastics\README.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Analytics">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
  </Reference>
  <Reference Include="Mono.Cecil">
  <HintPath>C:/Program Files/Unity/Editor/Data/Managed/Mono.Cecil.dll</HintPath>

@@ -1,13 +1,16 @@
 #pragma strict
 
+
+var explosion : GameObject ;
+
 function Start () {
 	
 }
 
 function Update () {
-	var ray = GetComponent.<Camera>().ScreenPointToRay(transform.position); 
-	Debug.DrawRay(ray.origin, ray.direction*1000,Color.red);
-	//transform.Translate(Vector3.forward*0.5, Camera.main.transform);
+
+	
+	
 	UpdateKeyboardMovements();
 	//UpdateVaiseauxPlan();
 }
@@ -18,6 +21,19 @@ function UpdateKeyboardMovements(){
 	
 	
 	if(Input.GetKey("a")){
+	var hit : RaycastHit;
+	//var ray = GetComponent.<Camera>().ScreenPointToRay(transform.position); 
+	var forward : Vector3 = transform.TransformDirection( - Vector3.up ) * 10;
+	if (Physics.Raycast(transform.position, forward,hit, 1000)) {
+		Debug.DrawRay(transform.position,forward,Color.red);
+		Destroy(hit.collider.gameObject);
+		Instantiate (explosion, hit.collider.gameObject.transform.position ,hit.collider.gameObject.transform.rotation );
+	}
+	else {
+		Debug.DrawRay(transform.position,forward,Color.green);
+	}
+	
+	
 //	Vector3 fwd = transform.TransformDirection(Vector3.forward);
         // if (Physics.Raycast(transform.position, fwd, 1000)) {
             // print("There is something in front of the object!");

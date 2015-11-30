@@ -15,7 +15,7 @@ function Start () {
 }
 
 function Update () {
-	transform.Translate(Vector3.forward*0.5, Camera.main.transform);
+	transform.Translate(Vector3.forward*speed, Camera.main.transform);
 	UpdateKeyboardMovements();
 	//UpdateVaiseauxPlan();
 }

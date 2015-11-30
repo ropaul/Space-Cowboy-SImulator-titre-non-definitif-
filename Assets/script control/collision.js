@@ -1,6 +1,6 @@
 ﻿#pragma strict
 
-var thePrefab : GameObject ;
+var explosion : GameObject ;
 public var specialEffect :GameObject ;
 
 function Start () {
@@ -19,6 +19,6 @@ function OnCollisionEnter(collideEvent:Collision){
 	// AudioSource.PlayClipAtPoint(myClip, transform.position);
 	
 //	Instantiate(specialEffect, collideEvent.gameObject.transform.position, collideEvent.gameObject.transform.rotation);
-	Destroy(gameObject);
-	//var instance : GameObject = Instantiate (thePrefab, transform.position , transform.rotation );
+	Destroy(collideEvent.gameObject);
+	Instantiate (explosion, transform.position , transform.rotation );
 }
